@@ -33,7 +33,7 @@ export function App() {
     return(
         <>
             <header>
-                <h1>Fast Blog</h1>
+                <a href="/#/users/"><h1>Fast Blog</h1></a>
             </header>
             <main>
                 <HashRouter>

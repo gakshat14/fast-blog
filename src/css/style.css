@@ -33,16 +33,17 @@ h1 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    grid-row-gap: 10px;
 }
 .users-container li {
     list-style: none;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: #06c;
 }
 a:visited {
-    color: initial;
+    color: #06c;
 }
 article {
     padding: 1%;
@@ -139,4 +140,24 @@ a.btn {
 .comments-container p{
     border-bottom: none;
     margin: 0;
+}
+
+.user-card {
+    box-shadow: 0 0.0825rem 0.125rem 0 rgba(3, 3, 3, 0.12), 0 0 0.125rem 0 rgba(3, 3, 3, 0.06);
+    padding: 10px;
+}
+
+.user-card div {
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 10px;
+}
+
+.user-card h2 {
+    margin-bottom: 2px;
+    font-size: larger;
+    color: darkblue;
+}
+
+.user-card p {
+    margin-top: 0;
 }
