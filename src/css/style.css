@@ -10,14 +10,14 @@ h1 {
     font-family: 'Marcellus SC', serif;
     margin: 0;
     padding: 10px;
-    background: #011A27;
-    color: #E6DF44;
+    background: #00d9c0;
+    color: #fffff3;
     font-size: 1.8em;
 }
 .subheading {
     padding: 5%;
-    background: #063582;
-    color: #F0810F;
+    background: #030301;
+    color: #fffff3;
     text-align: center;
     font-size: 2.3em;
 }
@@ -65,7 +65,7 @@ article p {
     padding-bottom: 1.3rem;
 }
 .view-button {
-    background-color: #00c4cc;
+    background-color: #ff4365;
     border: none;
     padding: 8px;
     color: #fff;
@@ -80,19 +80,29 @@ article p {
     padding-bottom: 20px;
 }
 .user-section > div:nth-child(1) {
-    background-color: #000B29;
-    color: #D70026;
+    background-color: #00D9C0;
+    color: #030301;
     padding: 5px 10px;
+    
+}
+
+.user-section > div:nth-child(1) h2 {
+    padding-bottom: 0px;
+    font-size: 1.5em;
+    margin: 16px 5px 0 0;
 }
 
 .user-section > div:nth-child(1) p {
-    margin-right: 5px;
+    font-size: 1em;
+    margin: 0px 5px 16px 0;
 }
 
 .user-section > div:nth-child(1) a {
     display: block;
-    color: #D70026;
-    margin: 16px 0;
+    color: #fffbfa;
+    margin: 10px 0;
+    line-height: 0px;
+    
 }
 
 .users-section address {
@@ -117,7 +127,7 @@ article p {
 }
 
 a.btn {
-    background-color: #00c4cc;
+    background-color: #ff4365;
     border: none;
     padding: 8px;
     color: #fff;
@@ -155,7 +165,7 @@ a.btn {
 .user-card h2 {
     margin-bottom: 2px;
     font-size: larger;
-    color: darkblue;
+    color: #ff4365;
 }
 
 .user-card p {
