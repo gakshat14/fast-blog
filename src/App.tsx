@@ -8,7 +8,7 @@ const Posts = React.lazy(() => import('./components/Posts/Posts'));
 export function App() {
     function renderUserPage(routeProps) {
         return(
-            <Suspense fallback={<div>Loading your ass</div>}>
+            <Suspense fallback={<div>Loading...</div>}>
                 <Users routerProps={routeProps}/>
             </Suspense>
         );
@@ -16,7 +16,7 @@ export function App() {
 
     function renderUserDetailsPage(routeProps) {
         return(
-            <Suspense fallback={<div>Loading your ass</div>}>
+            <Suspense fallback={<div>Loading...</div>}>
                 <UserDetail routerProps={routeProps}/>
             </Suspense>
         );
@@ -24,7 +24,7 @@ export function App() {
 
     function renderPosts(routerProps) {
         return(
-            <Suspense fallback={<div>Loading your ass</div>}>
+            <Suspense fallback={<div>Loading...</div>}>
                 <Posts routerProps={routerProps}/>
             </Suspense>
         );
